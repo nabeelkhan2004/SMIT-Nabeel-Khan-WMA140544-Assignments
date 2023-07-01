@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+* {
+    margin: 10px 10px;
+    font-family: 'roboto';
+    font-size: 1rem;
+}
+
+body {
+background-color: antiquewhite;
+}
+
+h1 {
+    color: #606c38;
+    margin: 30px;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+#h1Sub {
+    font-size: 22px;
+}
+
+h2 {
+    color: #606c38;
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+}
+
+.art {
+    width: 90%;
+    margin: 30px;
+    color: #283618;
+    word-spacing: 5px;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover, a:focus{
+    font-size: 18px;
+    text-decoration: none;
+    text-shadow: 0 0 10px black, 0 0 15px #ffffff;
+}

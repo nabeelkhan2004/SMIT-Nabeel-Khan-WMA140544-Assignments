@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-size: 22px;
+    font-family: 'Roboto';
+    /* font-weight: 600; */
+}
+
+body {
+    background-color: #EFD6AC;
+}
+
+li {
+    line-height: 50px;
+    list-style-type: none;
+}
+
+a {
+    text-transform: uppercase;
+    color: maroon;
+}
+
+a:hover {
+    font-size: 25px;
+    font-weight: 1000;
+    color: red;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 10px;
+}
+
+p, strong{
+    font-size: 16px;
+}

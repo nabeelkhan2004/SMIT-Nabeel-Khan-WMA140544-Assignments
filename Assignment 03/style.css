@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+* {
+    margin: 20px 0 10px 10px;
+    color: #3a5a40;
+}
+
+body {
+    background-color: #d5e0c2;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    color: #344e41;
+    text-shadow: 0px 0px 20px;
+    display: block;;
+}
+
+#mainLogo {
+    position: absolute;
+    top: 75px;
+    left: 50px;
+    width: 75px;
+    height: 75px;
+}
+
+h1:hover {
+    color: #FFFFFF;
+    text-shadow: 0px 0px 20px;
+}
+
+ol {
+    list-style-type: none;
+    color: #e5e5e5;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+ol ul li {
+    list-style-type: square;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+ol ul li:hover {
+    list-style: square url('/Food Items/Icons/Li-Icon.png');
+}
+
+a, h3 {
+    color: #3a5a40;
+    text-decoration: none;
+}
+
+a:hover, a:focus{
+    font-size: 18px;
+    text-decoration: none;
+    text-shadow: 0 0 10px #274dc9, 0 0 15px #ffffff;
+}
+
+dl, dd {
+    color: white;
+    text-align: justify ;
+    max-width: 500px;
+}
+
+.back {
+    position: absolute;
+    bottom: 10px
+}
+
+.foodIcons {
+    margin: 0;
+}
+
+summary {
+    width: 50%;
+}
+
+figcaption {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: justify;
+    text-transform: lowercase;
+    margin: 0;
+    width: 700px;
+    color: #3a5a40;
+}
+article {
+    margin-left: -50px;
+}
+
+main {
+    margin-top: 100px;
+}

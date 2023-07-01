@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>
+Nabeel Khan (WMA-140544)
+</title>
+</head>
+<body>
+<h1>
+SMIT Assignment 01
+</h1>
+<p>
+Hello, this is SMIT first assignment. I am creating this with the help of HTML elements <b> p</b> Tag.
+</p>
+
+</body>
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="Author" content="Nabeel Khan" />
+    <meta name="description" content="SMIT Assignment 05" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1>Saylani Mass IT Trainig Program</h1>
+        </center>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Regisration Form</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="alignElement">
+                                <p>
+                                    <label for="city">Select City</label>
+                                </p>
+                                <p>
+                                    <select name="city" class="inputArea">
+                                        <option value="lhr">Lahore</option>
+                                        <option value="khi" selected>Karachi</option>
+                                        <option value="isb">Islamabad</option>
+                                        <option value="rwp">Rawalpindi</option>
+                                        <option value="fsd">Faisalabad</option>
+                                        <option value="lkn">Larkana</option>
+                                        <option value="qta">Quetta</option>
+                                        <option value="psh">Peshawar</option>
+                                    </select>
+                                </p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="alignElement">
+                                <p>
+                                    <label for="course">Select Course</label>
+                                </p>
+                                <p>
+                                    <select name="course" class="inputArea">
+                                        <option value="Designing">Graphic Designing</option>
+                                        <option value="WebDev">Web Development</option>
+                                        <option value="Prog">Programing</option>
+                                    </select>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="alignElement">
+                                <p>
+                                    <label for="fullName">Full Name</label>
+                                </p>
+                                <p>
+                                    <input type="text" name="fullName" id="fullName" class="inputArea"
+                                        placeholder="Your full name" />
+                                </p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="alignElement">
+                                <p>
+                                    <label for="fatherName">Father's Name</label>
+                                </p>
+                                <p>
+                                    <input type="text" name="fatherName" class="inputArea" id="fatherName"
+                                        placeholder="Your father name" />
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="alignElement">
+                                <p>
+                                    <label for="email">Email</label>
+                                </p>
+                                <p>
+                                    <input type="email" name="email" id="email" class="inputArea"
+                                        placeholder="example@email.com" />
+                                </p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="alignElement">
+                                <p>
+                                    <label for="phone">Phone</label>
+                                </p>
+
+                                <p>
+                                    <input type="number" name="phone" id="phone" class="inputArea"
+                                        placeholder="+92 333 1234567">
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="alignElement">
+                                <p>
+                                    <label for="CNIC">CNIC</label>
+                                </p>
+                                <p>
+                                    <input type="number" name="CNIC" id="CNIC" class="inputArea"
+                                        placeholder="42101-1111111-1">
+                                </p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="alignElement">
+                                <p>
+                                    <label for="fatherCNIC">Father's CNIC</label>
+                                </p>
+                                <p>
+                                    <input type="number" name="fatherCNIC" id="fatherCNIC"
+                                        placeholder="42101-1111111-1">
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="alignElement">
+                                <p>
+                                    <label for="DoB">DoB (Date of Birth)</label>
+                                </p>
+                                <p>
+                                    <input type="date" name="DoB" id="DoB" class="inputArea">
+                                </p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="alignElement">
+                                <p class="aligItem col2">
+                                    <label for="gender">Gender</label>
+                                </p>
+
+                                <p>
+                                    <select name="gender" id="gender" class="inputArea">
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                    </select>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div>
+                                <p>
+                                    <label for="address">Address</label>
+                                </p>
+                                <p>
+                                    <textarea name="address" id="address" cols="30" rows="2"></textarea>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div>
+                                <p>
+                                    <label for="qualification">Last Qualification</label>
+                                </p>
+                                <p>
+                                    <select name="qualification" id="qualification">
+                                        <option value="lastQual">Last Qualification</option>
+                                        <option value="grd5-8">Grade 5-8</option>
+                                        <option value="matric">Matric</option>
+                                        <option value="intermediate">Intermediate</option>
+                                        <option value="undGrad">Undergraduate</option>
+                                        <option value="grad">Graduate</option>
+                                        <option value="mast">Master</option>
+                                        <option value="phd">PhD</option>
+                                    </select>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p>
+                                <label for="inputImage">Add Profile Image</label>
+                            </p>
+                            <br>
+                            <span id="imageBut">
+                                <input type="file" accept="image/*" id="imageUpBUt">
+                            </span>
+                            <br>
+                            <br>
+                            <span id="imageUpload">
+                                <p>
+                                    With white or blue background <br>
+                                    File size must be less than 1MB <br>
+                                    File type: jpg, jpeg, png <br>
+                                    Upload your recent passport size picture <br>
+                                    Your Face should be clearly visible without any Glasses br
+                                </p>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+
+                <br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+
+        </form>
+
+    </main>
+
+    <center>
+        <p>copyright &copy; <strong>Nabeel Khan WMA-140544</strong></p>
+    </center>
+
+    <footer>
+        <span><a href="#">Back to Top</a></span>
+        <span><a href="/">Back to Main</a></span>
+    </footer>
+
+</body>
+
+</html>
